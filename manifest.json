@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" : "linkin",
+    "version" : "1.0.0",
+    "description" : "follow these links & stay connectd",
+    "icons": {"128" : "r_128.png"},
+    "browser_action" : {
+        "default_icon" : "r_19.png",
+        "default_popup" : "index.html"
+    },
+    "permissions" : ["activeTab"]
+}
